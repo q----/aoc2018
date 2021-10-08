@@ -49,5 +49,5 @@ while True:
 		exec(i[reg[ip]][0] + "(reg," + i[reg[ip]][1] + "," + i[reg[ip]][2] + "," + i[reg[ip]][3] + ")")
 		reg[ip] += 1
 	except IndexError:
-		print reg[0]
+		print(reg[0])
 		break
